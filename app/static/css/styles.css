@@ -1,0 +1,100 @@
+body{
+    margin:0; padding: 0; 
+	background: #A8BAC8;
+	color: #444; 
+	font: 100%/1.618;
+	font-size: 0.875em;
+}
+
+main{
+    position: relative; 
+	display: block;
+    max-width: 1240px; 
+
+	height: auto;
+	min-height: 550px; 
+	
+    background-color: #fff; 
+	border-radius: 10px; 
+	
+    margin: 10px auto 40px auto;
+    padding: 0px 10px 0px 10px;
+}
+
+
+h1{	
+	font-size: 2rem; 
+	padding: 10px 0px 0px 5px;	
+}
+	
+
+/* --- HEADER  ---- */
+
+#header{ 
+	background-color: #fff;
+	margin: 0; padding: 0;
+	
+	-moz-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+
+	}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active, nav a.active{
+	font-weight: 600; 
+	color: #B0943C; 
+	}
+	
+
+	.well-sm {
+		padding: 9px;
+		border-radius: 3px;
+	}
+	.well {
+		min-height: 20px;
+		padding: 19px;
+		margin-bottom: 20px;
+		background-color: #f5f5f5;
+		border: 1px solid #e3e3e3;
+		border-radius: 4px;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+	}
+
+/* --- FOOTER  ---- */
+
+footer{
+ padding: 15px;
+ border-top: 1px solid #ddd;
+ background-color: rgba(255,255,255); 
+ margin: 0;  
+ min-height: 100%;
+ max-width: 100%;
+ margin-bottom: 0;
+}
+
+
+.footer > ul li{ padding: 2px; list-style-type: square;  }
+.footer > ul li a{ color: #555;   }
+.footer > ul li a:hover{ color: #87ACD9; text-decoration: underline;  }
+.footer > ul li { color: #888; font-size: 0.85rem;}
+
+
+/*SET BOOTSTRAP */
+.form-row, .row{margin-bottom: 5px;}
+.nowrap{ white-space: nowrap; }
+.width95{ width: 95%; }
+.nopadding{ padding: 0; }
+.nopaddingLeft{padding-left: 0;}
+.nopaddingRight{padding-right: 0;}
+.padding5{ padding: 5px; }
+.padding10{ padding: 10px; }
+.padding20{ padding-left: 20px; }
+.nomargin{ margin: 0; }
+.margin_auto{ margin: 0 auto; }
+.marginL_auto{ margin-left: 15%; }
+.margin5{ margin: 5px; }
+.marginLeft10{ margin-left: 10px; }
+.container {max-width: 1200px; padding-bottom: 40px;}
+.floatRight{ float: right; right: 0; top: 0;  }
